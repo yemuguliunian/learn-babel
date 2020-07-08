@@ -74,3 +74,13 @@ import { AtModal, AtModalContent } from 'taro-ui';
 
 require('taro-ui/dist/style/components/modal.scss');
 ```
+
+## \*插件顺序
+
+> 插件的排列顺序很重要。
+
+这意味着如果两个转换插件都将处理“程序（Program）”的某个代码片段，则将根据转换插件或 preset 的排列顺序依次执行。
+
+-   插件在 Presets 前运行。
+-   插件顺序从前往后排列。
+-   Preset 顺序是颠倒的（从后往前）。
