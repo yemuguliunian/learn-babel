@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src --out-dir lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-template": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
